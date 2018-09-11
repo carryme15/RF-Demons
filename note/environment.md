@@ -14,6 +14,7 @@ sudo -H apt install python3-pip
 - download timeshift
 
 # bash 自动补全忽略大小写
+
 在 ~/.inputrc 文件末尾添加一行
 set completion-ignore-case on
 关闭 terminal ， 重新打开
@@ -27,8 +28,6 @@ set completion-ignore-case on
 
 electronic wechat
 
-https://gist.github.com/6a27a443fcf3d2bffd91e6311fe945bf#file-p001-robot
-
 # electronic app 安装
 npm install
 npm run
@@ -39,3 +38,23 @@ npm run
 - git add
 - git commit
 - git push
+
+> gitignore file: /-directory | * | ? | ! |
+
+# selenium 环境准备
+
+- pip install selenium
+- 下载浏览器驱动 geckodriver | chromedriver
+- 测试是否安装成功 
+    - python -c "from selenium import webdriver;webdriver.Chrome().get('https://www.baidu.com')"
+    - python -c "from selenium import webdriver;webdriver.Firefox().get('https://www.baidu.com')"
+
+> sudo apt install chromium-browser
+
+# python 命令行
+
+- pydoc -p 8000 
+- python -m module args
+    - python -m virtualenv
+- python -c code
+- python --version

@@ -1,0 +1,6 @@
+# robot framework user guide
+# ignored
+userguide/
+
+# output files
+output/
