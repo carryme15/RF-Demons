@@ -32,3 +32,10 @@ https://gist.github.com/6a27a443fcf3d2bffd91e6311fe945bf#file-p001-robot
 # electronic app 安装
 npm install
 npm run
+
+# git 开发流程
+
+- git clone 
+- git add
+- git commit
+- git push
