@@ -4,3 +4,9 @@ userguide/
 
 # output files
 output/
+
+# official demos
+official/
+
+# cache
+__*__/
